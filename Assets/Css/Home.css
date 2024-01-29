@@ -1,0 +1,298 @@
+.slider{
+    margin-top: 40px;
+}
+.slider-backgrond{
+    background-image: url(../Images/Rectangle\ 23`1.png);
+    border-radius: 10px;
+    box-shadow: 0px 12px 24px 0px rgba(161, 161, 161, 0.32), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    border-radius: 50px;
+}
+.img-slider-logo{
+    width: 15%;
+}
+.img-slider-logo-taype-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Kitchen-appliances{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.btn-wrapper-Buy{
+    border-radius: 100px;
+    box-shadow: 0px 12px 24px 0px rgba(85, 205, 134, 0.32), 0px 2px 4px 0px rgba(85, 205, 134, 0.12);
+    background: #55CD86;
+    display: flex;
+    padding: 10px 23px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.icon-arowe-wrapper{
+    display: flex;
+}
+.btn-slider-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-Buy{
+    color: #ffff;
+    font-family:shabnam-bold ;
+    padding-left: 10px;
+}
+.dot {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border:1px solid #55CD86;
+  }
+  
+  .active1 {
+    border-radius: 30px;
+    background:  #55CD86;
+    width: 40px;
+    height: 20px;
+  }
+  .dot-wrapper {
+    margin-top: 7%;
+    margin-right: 7%;
+  }
+
+  .category-img-home-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .category-img-home-wrapper a{
+    color:black;
+    font-family: shabnam-bold;
+    font-size:16px;
+    display: contents;
+  }
+  .category-img-home-wrapper a:hover{
+    color:#55CD86;
+  }
+  .by-category-more{
+    text-align: center;
+    padding-right: 10%;
+  }
+  .span-more{
+    font-family: shabnam-bold;
+    color:#55CD86;
+    font-size:16px;
+    padding-left: 8px;
+    }
+  .title-category{
+    margin-top: 30px;
+}
+.arowe-lefth{
+  width: fit-content;
+}
+.wrapper-category-more{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.wrapper-span-more{
+  display: flex;
+  align-items: baseline;
+  width: 13%;
+}
+.wrapper-by-category-more{
+  width: 87%;
+}
+/* .wrapper-category-img{
+  width:80%;
+} */
+.category-title{
+  padding-right: 16%;
+}
+.Product-backgrond{
+  background-image: url(../Images/Rectangle\ 23`1.png);
+  overflow: hidden;
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.background-Product-discount{
+  background-color: #55CD86;
+  border-radius: 0px 50px 0px 0px;
+  overflow: hidden;
+}
+.item-wrapper-bg{
+background-color: #ffff;
+margin: 24px;
+border-radius: 30px;
+overflow: hidden;
+}
+.img-Product-discount{
+  padding: 0px 10px 10px 10px;
+}
+.wrapper-bd-title-Product-discount{
+  background-color: #F6F5F5;
+    border-radius: 30px;
+    padding: 16px;
+}
+.add-cart-Product-discount{
+  border: 1px solid #55CD86;
+  border-radius: 50px;
+  padding: 8px 16px;
+  color: #55CD86;
+  box-shadow: 0px 12px 24px 0px rgba(85, 205, 134, 0.32), 0px 2px 4px 0px rgba(85, 205, 134, 0.12);
+}
+.add-cart-Product-discount:hover{
+  background-color: #55CD86;
+  color: #ffff;
+}
+.wrapper-Product-discount{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper-price-Product-discount{
+  display: flex;
+  align-items: baseline;
+  flex-direction: column
+}
+.price-del{
+color: #A1A1A1;
+font-family: "shabnam";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+.price-Product-discount{
+  color:  #CC5E56;
+font-family: "shabnam-Medium";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+}
+.Product-discount{
+  margin: 30px 0px;
+}
+.wrapper-Product-discount-width{
+  padding: 0px;
+}
+.brand-Product-discount{
+  color: #A1A1A1;
+font-family: Shabnam;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+.discount{
+  color:  #000;
+text-align: center;
+font-family: shabnam-bold;
+font-size: 48px;
+font-style: normal;
+line-height: 150%; /* 72px */
+}
+.wrapper-discount{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper-span-more-discount{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.div-discount{
+  padding-top: 17px;
+  padding-right: 19px;
+  padding-bottom: 5px;
+}
+.p-discount{
+  border-radius: 30px;
+    background: #CC5E56;
+    display: inline;
+    padding: 2px 13px;
+    color: #ffff;
+    font-size: 15px;
+}
+.brnd-bg{
+  border-radius: 30px;
+background:  #FFF;
+box-shadow: 0px 2px 4px 0px rgba(161, 161, 161, 0.12), 0px 0px 24px 0px rgba(161, 161, 161, 0.32);
+}
+.wrapper-img-brand{
+    margin: 30px -3px;
+    border-right: 1px solid #A1A1A1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.owl-nav {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  z-index: -1;
+}
+.owl-prev:hover {
+  background: none !important;
+}
+.owl-next:hover{
+  background: none !important;
+
+}
+.owl-nav.disabled{
+  display: none !important;
+}
+.banner{
+  background-color: #FFF;
+  margin: 56px 0px;
+}
+.wrapper-banner-img{
+  margin: 20px 0px;
+}
+.item-wrapper-Product{
+background-color: #ffff;
+margin: 10px;
+border-radius: 30px;
+overflow: hidden;
+box-shadow: 0px 2px 4px 0px rgba(161, 161, 161, 0.10), 0px 12px 24px 0px rgba(161, 161, 161, 0.32);
+}
+.item-wrapper-Product:hover{
+  border: 1px solid #55CD86;
+  box-shadow: 0px 2px 4px 0px rgba(161, 161, 161, 0.10), 0px 12px 24px 0px rgba(161, 161, 161, 0.32);
+}
+.item-wrapper-Product:hover .line-product{
+background-color: #55CD86;
+}
+.wrapper-Product{
+  padding: 0px 20px;
+}
+.line-product{
+  width: 250px;
+  height: 7px;
+  background: var(--secondary2, #E9E9E9);
+  border-radius: 44px;
+}
+.wrapper-line-product{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-Product{
+  text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+.wrapper-img-Product{
+  padding-top: 20px;
+}

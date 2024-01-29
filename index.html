@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='dns-prefetch' href='//unpkg.com' />
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/Assets/Css/Site.css" type="text/css"     />
+    <link rel="stylesheet" href="/Assets/Css/Header.css" type="text/css" />
+    <link rel="stylesheet" href="/Assets/Css/Home.css" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+      <section class="background-header header-top">
+         <div class="container">
+            <div class="row wrapper">
+                 <div class="col-4 wrapper" >
+                    <div class="logo-header-wrapper">
+                        <img class="logo-header" src="/Assets/Images/logo.png" alt="logo" title="logo" width="220" height="105" />
+                    </div> 
+                 </div>  
+                 <div class="col-4 wrapper">
+                    <div class="site-search-wrapper">
+                       <div class="icon-search-wrapper">
+                           <img class="icon-search" src="/Assets/Images/search1.png" alt="search" title="search"  width="28" height="28"/>   
+                        </div>
+                       <input type="search" class="site-search" placeholder="جستجو" />
+                    </div>
+                 </div>
+                 <div class="col-4 wrapper-div">
+                     <div class="icon-cart-wrapper">
+                         <img class="icon-cart" src="/Assets/Images/cart1.png" alt="cart" title="cart" width="28" height="28" />
+                      </div>
+                      <span class="span-separator">|</span>
+                      <div class="icon-user-wrapper">
+                         <img class="icon-user" src="/Assets/Images/user1.png" alt="user" title="user" width="28" height="28" />
+                      </div>
+                      <span class="span-register-login">ورود</span>
+                      <span class="span-or">یا</span>
+                      <span class="span-register-login">ثبت نام</span>
+                 </div>
+                 </div> 
+            </div>
+         </div>
+      </section>
+       <section class="background-header-main"> 
+         <div class="container">
+            <div class="row">
+               <div class="col-2 wrapper padding-wrapper-category">  
+                  <nav>          
+                  <div class="dropdown-wrapper" onmouseover="startAnimation()" onmouseout="resetAnimation()">
+                     <div class="icon-category-wrapper">
+                       <img class="icon-category" src="/Assets/Images/bars1.png" alt="category" title="category" width="28" height="28" />
+                     </div>
+                     <span class="span-category dropbtn">دسته بندی ها</span>
+                     <div class="dropdown-content">
+                       <a class="link-category" href="#"> سرویس قاشق و چنگال</a>
+                       <a  href="#">سرویس قابلمه</a>
+                       <a  href="#">سرویس آشپزخانه</a>
+                     </div>
+                     <div class="icon-category-Down-wrapper">
+                       <img class="icon-category-Down" src="/Assets/Images/chevron-down1.png" alt="icon-down" title="icon-down" width="28" height="28" />
+                     </div>
+                     <div class="animation-bar"></div>
+                   </div>
+                  </nav>    
+               </div>
+               <div class="col-10 padding-wrapper">
+                  <span class="span-category">صفحه اصلی</span>
+                  <span class="span-category">وبلاگ</span>
+                  <span class="span-category">درباره ما</span>
+                  <span class="span-category">تماس با ما</span>
+               </div>
+            </div>
+         </div>
+       </section>
+    </header>
+
+    <main>
+      <section class="slider" >
+         <div class= "container  ">
+            <div class="slider-backgrond">
+                  <div class="row">
+               <div class="col-7">
+                  <div class="img-slider-logo-wrapper">
+                     <img src="/Assets/Images/Icon 51.png" class="img-slider-logo" alt="" alt="" width="114" height="78" />
+                  </div>
+                  <div class="img-slider-logo-taype-wrapper">
+                     <div>
+                        <img src="/Assets/Images/Logotype 31.png" class="img-slider-logo-taype" alt="" alt=""  width="502" height="222" />
+                     </div>
+                  </div>
+                  <p class="Kitchen-appliances">بزرگترین مرجع خرید لوازم آشپزخانه</p>
+                  <div class="btn-slider-wrapper">
+                     <div class="btn-wrapper-Buy">
+                        <a href="" class="link-Buy">بزن بریم خرید!</a>
+                        <div class="icon-arowe-wrapper">
+                           <img class="icon-arowe" src="/Assets/Images/placeholder1.png" alt="" alt=""  width="24" height="24"  >
+                        </div>
+                     </div>
+                  </div> 
+                  <div class="dot-wrapper">
+                     <span class="dot" onclick="currentSlide(1)"></span> 
+                     <span class="dot" onclick="currentSlide(2)"></span> 
+                     <span class="dot" onclick="currentSlide(3)"></span> 
+                   </div>
+               </div>
+               <div class="col-5">
+                        <div class="slideshow-container">
+                           <div class="mySlides">
+                              <img src="/Assets/Images/pixlr-image.png" class="img-slider" alt="" alt=""  width="529" height="700"  />
+                           </div>        
+                           <div class="mySlides">
+                             <img src="/Assets/Images/pixlr-image.png" >
+                           </div>             
+                           <div class="mySlides">
+                             <img src="/Assets/Images/pixlr-image.png" style="width:100%">
+                           </div>     
+                           </div>
+               </div>
+            </div>
+            </div>
+         </div>
+      </section>
+      <section class="title-category">
+         <div class="container">
+                  <div class="wrapper-category-more">
+                     <div class="wrapper-by-category-more">
+                        <h2 class="by-category-more">خرید براساس دسته بندی ها</h2>
+                     </div>
+                     <div class="wrapper-span-more">
+                        <span class="span-more">مشاهده همه</span>
+                        <div class="arowe-lefth">
+                           <img class="arowe-lefth" src="/Assets/Images/place.png" alt="" title="" width="28" height="28"/>
+                        </div>
+                     </div>  
+                  </div>     
+            </div>
+      </section>
+      <section class="category">
+         <div class="container">
+           <div class="row">
+               <div class="col-3">
+                     <div class="category-img-home-wrapper">
+                        <a href="">
+                           <div class="wrapper-category-img">
+                              <img class="category-img-home" src="/Assets/Images/12.png" alt="" title="" width="256" height="250"/>
+                           </div>
+                        <p class="category-title">سرویس کتری قوری</p>
+                        </a>
+                     </div>
+         
+               </div>
+               <div class="col-3">
+                  <div class="category-img-home-wrapper">
+                     <a href="">
+                        <div class="wrapper-category-img">
+                           <img class="category-img-home" src="/Assets/Images/Ellipse 41.png" alt="" title="" width="256" height="250"/>
+                        </div>
+                     <p class="category-title">سرویس  قابلمه</p>
+                     </a>
+                  </div>
+               </div>
+               <div class="col-3">
+                  <div class="category-img-home-wrapper">
+                     <a href="">
+                        <div class="wrapper-category-img">
+                           <img class="category-img-home" src="/Assets/Images/Ellipse 41 (1).png" alt="" title="" width="256" height="250"/>
+                        </div>
+                     <p class="category-title">
+                        سرویس قاشق و چنگال
+                     </p>
+                     </a>
+                  </div>
+
+               </div>
+               <div class="col-3">
+                  <div class="category-img-home-wrapper">
+                     <a href="">
+                        <div class="wrapper-category-img">
+                           <img class="category-img-home" src="/Assets/Images/Ellipse 41 (2).png" alt="" title="" width="256" height="250"/>
+                        </div>
+                     <p class="category-title">
+                        سرویس آشپزخانه
+                     </p>
+                      </a>
+                  </div>
+               </div>
+           </div>
+
+           </div>
+         </div>
+      </section>
+      <section class="Product-discount">
+         <div class="container-fluid wrapper-Product-discount-width">
+            <div class="Product-backgrond">
+               <div class="row">
+                <div class="col-2 wrapper-discount">
+                  <p class="discount">
+                     با
+                  </p>
+                  <p class="discount">تخفیف</p>
+                  <p class="discount">بخر!</p>
+                  <div class="wrapper-span-more-discount">
+                     <span class="span-more">مشاهده همه</span>
+                     <div class="arowe-lefth">
+                        <img class="arowe-lefth" src="/Assets/Images/place.png" alt="" title="" width="28" height="28"/>
+                     </div>
+                  </div> 
+                </div>
+                <div class="col-10">
+                  <div class="background-Product-discount">
+                     <div id="carousel" class="owl-carousel owl-theme">
+                        <div class="item">
+                           <div class="item-wrapper-bg">
+                              <div class="div-discount">
+                                 <p class="p-discount">48%</p>
+                              </div>
+                              <div class="wrapper-img-Product-discount">
+                                 <img src="/Assets/Images/Rectangle 321.png" class="img-Product-discount" alt="" width="529" height="700"> 
+                              </div>  
+                              <div class="wrapper-bd-title-Product-discount">
+                                 <h2 style="font-size: 18px;">ست جا ادویه ایی</h2>
+                                 <p class="brand-Product-discount">برند</p>
+                                 <div class="wrapper-Product-discount">
+                                    <a href="" class="add-cart-Product-discount">
+                                       +
+                                    </a>
+                                    <div class="wrapper-price-Product-discount">
+                                       <del class="price-del">2.990.000</del>
+                                       <span class="price-Product-discount">1.990.000 تومان</span>
+                                    </div>                                 
+                                 </div>
+                              </div>                       
+                           </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="brand">
+         <h2 style="text-align: center;    margin-top: 50px;
+         margin-bottom: 30px;">برندهای موجود درسرای خونگی</h2>
+         <div class="container">
+            <div class="row">
+               <div col-12>
+                  <div class="brnd-bg">
+                     <div id="carousel-brand" class="owl-carousel owl-theme">
+                        <div class="item">
+                           <div class="wrapper-img-brand">
+                              <div>
+                                 <img src="/Assets/Images/logo-300x125 21.png" class="img-Product-discount" alt="" width="529" height="700"> 
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+         </div>      
+      </section>
+      <section class="banner">
+         <div class="container">
+             <div class="row">
+                <div class="col-6">
+                   <div class="wrapper-banner-img">
+                      <img  src="/Assets/Images/Component 311.png" class="" alt="" title="" width="" height="" />
+                   </div>
+                </div>
+                <div class="col-6">
+                   <div class="wrapper-banner-img">
+                      <img  src="/Assets/Images/Component 311.png" class="" alt="" title="" width="" height="" />
+                   </div>
+                </div>
+             </div>
+         </div>
+       </section>  
+      <section class="title-category">
+         <div class="container">
+                  <div class="wrapper-category-more">
+                     <div class="wrapper-by-category-more">
+                        <h2 class="by-category-more">جدید ترین محصولات سرای خونگی</p>
+                     </div>
+                     <div class="wrapper-span-more">
+                        <span class="span-more">مشاهده همه</span>
+                        <div class="arowe-lefth">
+                           <img class="arowe-lefth" src="/Assets/Images/place.png" alt="" title="" width="28" height="28"/>
+                        </div>
+                     </div>  
+                  </div>     
+            </div>
+      </section> 
+      <section class="Product">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div id="carousel1" class="owl-carousel owl-theme">
+                     <div class="item">
+                        <div class="item-wrapper-Product">
+                           <div class="wrapper-img-Product">
+                              <img src="/Assets/Images/Rectangle 321.png" class="img-Product-discount" alt="" width="529" height="700"> 
+                           </div>  
+                           <div class="wrapper-Product">
+                              <p style="font-weight: 700;">ست جا ادویه ایی</h2>
+                              <p class="brand-Product-discount">برند</p>
+                              <p class="price-Product">2.500.000 تومان</p>
+                              <div class="wrapper-line-product">
+                                 <div class="line-product">
+
+                                 </div>
+                              </div>
+                           </div>                       
+                        </div>
+                     </div>
+                 </div>
+               </div>
+            </div>
+         </div>
+      </section> 
+    </main>
+
+    
+    <footer>
+
+
+    </footer>
+
+    <script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://www.unpkg.com/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="/Assets/Js/animation-bar.js"></script>
+    <script src="/Assets/Js/slider.js"></script>
+    <script src="https://unpkg.com/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+      $('#carousel').owlCarousel({
+    loop:true,
+    rtl:true,
+    lazyLoad:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+    </script>
+<script>
+   $('#carousel-brand').owlCarousel({
+    loop:true,
+    rtl:true,
+    lazyLoad:true,
+    margin:10,
+    nav:true,
+    navText: ["<img class='nex' src='/Assets/Images/chevron-down1 (2).png'>", "<img class='nex' src='/Assets/Images/chevron-down1 (1).png'>"],
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+</script>
+<script>
+   $('#carousel1').owlCarousel({
+ loop:true,
+ rtl:true,
+ lazyLoad:true,
+ margin:10,
+ nav:false,
+ dots:false,
+ autoplay:true,
+ autoplayTimeout:3000,
+ autoplayHoverPause:true,
+ responsive:{
+     0:{
+         items:1
+     },
+     600:{
+         items:3
+     },
+     1000:{
+         items:4
+     }
+ }
+})
+ </script>
+</body>
+</html>

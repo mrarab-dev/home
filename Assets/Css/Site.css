@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "shabnam-bold";
+    src:
+    url("../Fonts/shabnam/Shabnam-Bold.eot") format("eot"),
+      url("../Fonts/shabnam/Shabnam-Bold.ttf") format("ttf"),
+      url("../Fonts/shabnam/Shabnam-Bold.woff")  format("woff"),
+      url("../Fonts/shabnam/Shabnam-Bold.woff2") format("woff2");
+      
+      font-display: swap;
+  }
+  @font-face {
+    font-family: "shabnam-Medium";
+    src:
+      url("../Fonts/shabnam/Shabnam-Medium.eot") format("eot"),
+      url("../Fonts/shabnam/Shabnam-Medium.ttf")  format("ttf"),
+      url("../Fonts/shabnam/Shabnam-Medium.woff")  format("woff"),    
+      url("../Fonts/shabnam/Shabnam-Medium.woff2") format("woff2");
+      font-display: swap;
+  }
+  @font-face {
+    font-family: "shabnam-Light";
+    src:
+      url("../Fonts/shabnam/Shabnam-Light.eot") format("eot"),
+      url("../Fonts/shabnam/Shabnam-Light.ttf")  format("ttf"),
+      url("../Fonts/shabnam/Shabnam-Light.woff")  format("woff"),
+      url("../Fonts/shabnam/Shabnam-Light.woff2") format("woff2");
+      font-display: swap;
+  }
+  @font-face {
+    font-family: "shabnam";
+    src:
+      url("../Fonts/shabnam/Shabnam-Thin.eot") format("eot"),
+      url("../Fonts/shabnam/Shabnam-Thin.ttf")  format("ttf"),
+      url("../Fonts/shabnam/Shabnam-Thin.woff")  format("woff"),
+      url("../Fonts/shabnam/Shabnam-Thin.woff2") format("woff2");
+      font-display: swap;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-size:24px ;
+    font-family:shabnam-bold ;
+    
+  }
+  p{
+    font-size:18px ;
+    font-family:shabnam-Medium;
+    font-weight: 500;
+  }
+  span{
+    font-size:18px ;
+    font-family:Shabnam-Light;
+    font-weight: 500;
+  }
+  a{
+    font-size:18px ;
+    font-family:Shabnam-Light; 
+    font-weight: 500;
+    text-decoration: none;
+  }
+  input::placeholder{
+    font-family:shabnam-Light;
+    font-size:16px ;
+    color: #A1A1A1;
+    font-style: normal;
+    font-weight: 500;
+  }
+  body{
+    background-color: #F6F5F5;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper{
+  display: flex;
+  align-items: center;
+  }
+  
